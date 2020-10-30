@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+
+body{
+    font-family: 'manrope', sans-serif;
+    background: black;
+}
+
+.bx-geral{
+    background: black;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background:black;
+    margin: 90px auto;
+    
+}
+#container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+
+.box{
+    margin: 50px auto;
+}
+
+.box h1{
+    color: white;
+}
+
+
+.box .paragrafo-box {
+        padding-left: 79px;
+        color: white;
+        font-size: 12px;
+}
+
+.img-div{
+    border: 1px solid #252525;
+    border-radius: 90px;
+    width: 100px;
+    height: 100px;
+    margin-left: 9px;
+    background: #3f3f3f;
+    
+}
+
+#btn-edit{
+    border: 1px solid black;
+    padding: 4px 9px;
+    background: black;
+    color: white;
+}
+
+.cards{
+    margin-top: 30px;
+}
+
+.green{
+    border: 1px solid green;
+  margin-bottom: 30px;
+  padding: 30px 90px;
+  text-align: left;
+  background: rgb(66, 138, 66);
+  border-radius: 9px;
+}
+.green h3, p{
+    margin-left: -80px;
+    font-weight: bold;
+    color: white;
+}
+.blue{
+    border: 1px solid blue;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    padding: 30px 90px;
+    text-align: left;
+    background: rgb(62, 119, 204);
+    border-radius: 9px;
+}
+.blue h3, p{
+    margin-left: -80px;
+    font-weight: bold;
+    color: white;
+}
+.orange{
+    border: 1px solid orange;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    padding: 30px 90px;
+    text-align: left;
+    background: rgb(197, 151, 66);
+    border-radius: 9px;
+}
+
+.orange h3, p{
+    margin-left: -80px;
+    font-weight: bold;
+    color: white;
+}
+
+@media (min-width:959px) {
+    #container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .cards{
+        display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 100px;
+      gap: 16px;
+      margin-left: -450px;
+    }
+
+    .box {
+        margin-left: 404px;
+    }
+
+    #btn-edit{
+        margin-right:390px;
+    }
+}
